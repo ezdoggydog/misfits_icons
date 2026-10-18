@@ -18,7 +18,7 @@ halloween, muertos, usmc (Marine Corps Birthday), veterans, thanksgiving, christ
 - `rocket_moon_poster.jpg`, `rocket_moon_icon_*` rocket-and-moon poster and its square icon
 
 ## items/
-Insurance policy and vehicle keys (sedan, pickup, minicopter, boat), transparent 512 px.
+Insurance policy and vehicle keys (sedan, pickup, minicopter, boat, utility truck), transparent 512 px.
 
 ## weapons/
 Hellfire M249 reference art (v2 is the one for the Fiverr skin brief).
