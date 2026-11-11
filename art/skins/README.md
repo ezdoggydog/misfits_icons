@@ -46,6 +46,7 @@ calls it. So the thing to look for in any skin app is a template download or a f
 |---|---|---|
 | [Vinnie's purple pinstripe coat](https://steamcommunity.com/sharedfiles/filedetails/?id=3837745342) (`jacket.snow`) | **3837745342** | Vinnie — in GrimwoodStory's `DefaultWear` since 1.9.2 |
 | [Vinnie's purple pinstripe trousers](https://steamcommunity.com/sharedfiles/filedetails/?id=3837747305) (`pants`) | **3837747305** | Vinnie — since 1.9.3. Built from the **denser** trousers file, see below |
+| Black boots (`shoes.boots`) | **2552297736** | Vinnie — since 1.9.5. **Not ours**, an existing public workshop skin, so no upload or visibility to manage |
 
 `jacket.snow`, not `jacket`: it's the only Rust coat with real lapels, and lapels are what make a
 jacket read as a suit. The field jacket has a zip and a shirt collar and reads as a purple coat.
@@ -74,3 +75,21 @@ so a skin set to Friends Only, Unlisted or Private shows correctly for whoever m
 default item for everyone else. That's the usual reason a server skin "works" and then doesn't.
 Facepunch approval is not needed — that only matters for the in-game item store; a published
 workshop skin works by ID on a server regardless.
+
+## Black on black needs a value difference, not a color difference (Nov 11, 2026)
+
+A boot skin painted flat `#000000` came back as a boot-shaped hole — no laces, no toe cap, no sole,
+just a silhouette. Rust's lighting can't pull shape out of a texture that has none in it. The one
+that worked keeps the laces, toe and sole readable at different values while still reading black.
+
+Same lesson as the pinstripes: contrast carries the form, color only carries the mood.
+
+## Vinnie's outfit, finished (GrimwoodStory 1.9.5)
+
+`jacket.snow` (purple pinstripe) + `pants` (purple pinstripe, denser file) + `shoes.boots` (black).
+**No shirt**, deliberately: a shirt and a jacket both want the chest body slot, so whichever is
+listed first wins and the other is created and silently thrown away. That cost us an evening — it
+looked exactly like a skin failing to load. Since 1.9.4 the plugin prints a warning naming the
+garment it couldn't put on.
+
+A fedora skin exists and reads correctly (pinched crown, proper band) — ID still to come.
