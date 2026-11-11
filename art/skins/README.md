@@ -47,6 +47,7 @@ calls it. So the thing to look for in any skin app is a template download or a f
 | [Vinnie's purple pinstripe coat](https://steamcommunity.com/sharedfiles/filedetails/?id=3837745342) (`jacket.snow`) | **3837745342** | Vinnie — in GrimwoodStory's `DefaultWear` since 1.9.2 |
 | [Vinnie's purple pinstripe trousers](https://steamcommunity.com/sharedfiles/filedetails/?id=3837747305) (`pants`) | **3837747305** | Vinnie — since 1.9.3. Built from the **denser** trousers file, see below |
 | Black boots (`shoes.boots`) | **2552297736** | Vinnie — since 1.9.5. **Not ours**, an existing public workshop skin, so no upload or visibility to manage |
+| Black fedora (`hat.boonie`) | **2255866690** | Vinnie — since 1.9.6. Also not ours. A boonie underneath, but the skin gives it a pinched crown and a firm brim, so it reads as a real fedora |
 
 `jacket.snow`, not `jacket`: it's the only Rust coat with real lapels, and lapels are what make a
 jacket read as a suit. The field jacket has a zip and a shirt collar and reads as a purple coat.
@@ -92,4 +93,9 @@ listed first wins and the other is created and silently thrown away. That cost u
 looked exactly like a skin failing to load. Since 1.9.4 the plugin prints a warning naming the
 garment it couldn't put on.
 
-A fedora skin exists and reads correctly (pinched crown, proper band) — ID still to come.
+Plus the fedora. **No shirt and no other headwear** — a shirt would fight the coat for the chest
+slot, and a second hat is impossible anyway.
+
+**One loud thing at a time.** A pinstriped boonie with playing cards in the band was considered and
+rejected: the suit is already the loud thing, and a second stripe pattern at a different scale
+fights the one we spent the evening matching. Plain black hat, plain black boots, loud suit.
