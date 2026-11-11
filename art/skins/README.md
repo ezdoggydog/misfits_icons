@@ -45,12 +45,15 @@ calls it. So the thing to look for in any skin app is a template download or a f
 | Skin | ID | Worn by |
 |---|---|---|
 | Vinnie's purple pinstripe coat (`jacket.snow`) | **3837745342** | Vinnie — in GrimwoodStory's `DefaultWear` since 1.9.2 |
+| Vinnie's purple pinstripe trousers (`pants`) | **3837747305** | Vinnie — since 1.9.3. Built from the **denser** trousers file, see below |
 
 `jacket.snow`, not `jacket`: it's the only Rust coat with real lapels, and lapels are what make a
 jacket read as a suit. The field jacket has a zip and a shirt collar and reads as a purple coat.
 
-Still to make: cream `shirt.collared` (`#EADFC8`) and `pants` in the same purple base. Matching
-trousers are what turn a coat into a suit — more important than anything on the jacket itself.
+Still to make: cream `shirt.collared` (`#EADFC8`), for the light behind the lapel V.
+
+Measured after the reskin: 21 stripes across the hips against the coat's 22 across the chest. They
+read as one cloth now.
 
 ## Trousers need a denser file than the coat (Nov 11, 2026)
 
