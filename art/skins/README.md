@@ -44,8 +44,8 @@ calls it. So the thing to look for in any skin app is a template download or a f
 
 | Skin | ID | Worn by |
 |---|---|---|
-| Vinnie's purple pinstripe coat (`jacket.snow`) | **3837745342** | Vinnie — in GrimwoodStory's `DefaultWear` since 1.9.2 |
-| Vinnie's purple pinstripe trousers (`pants`) | **3837747305** | Vinnie — since 1.9.3. Built from the **denser** trousers file, see below |
+| [Vinnie's purple pinstripe coat](https://steamcommunity.com/sharedfiles/filedetails/?id=3837745342) (`jacket.snow`) | **3837745342** | Vinnie — in GrimwoodStory's `DefaultWear` since 1.9.2 |
+| [Vinnie's purple pinstripe trousers](https://steamcommunity.com/sharedfiles/filedetails/?id=3837747305) (`pants`) | **3837747305** | Vinnie — since 1.9.3. Built from the **denser** trousers file, see below |
 
 `jacket.snow`, not `jacket`: it's the only Rust coat with real lapels, and lapels are what make a
 jacket read as a suit. The field jacket has a zip and a shirt collar and reads as a purple coat.
@@ -68,3 +68,9 @@ ordinary chalkstripe for `jacket.snow`.
 
 **The general rule: match the stripes on the body, not in the file.** Every garment magnifies the
 texture differently, so the same file on two pieces will not match. Measure on the model.
+
+**Workshop visibility must be Public.** Other players' clients fetch the texture from the workshop,
+so a skin set to Friends Only, Unlisted or Private shows correctly for whoever made it and as the
+default item for everyone else. That's the usual reason a server skin "works" and then doesn't.
+Facepunch approval is not needed — that only matters for the in-game item store; a published
+workshop skin works by ID on a server regardless.
