@@ -49,6 +49,7 @@ calls it. So the thing to look for in any skin app is a template download or a f
 | Black boots (`shoes.boots`) | **2552297736** | Vinnie — since 1.9.5. **Not ours**, an existing public workshop skin, so no upload or visibility to manage |
 | [Gunny's red PT shirt](https://steamcommunity.com/sharedfiles/filedetails/?id=3837763379) (`tshirt`) | **3837763379** | Gunny — since 1.9.7. Faded brick `#8E3A33`, gold `#C2A964`, EGA on the left chest and the full lockup across the back |
 | Blue jeans (`pants`) | **3686433346** | Gunny — since 1.9.8. **Not ours.** Mid-indigo, honest fade, orange contrast stitching |
+| Worn work boots (`shoes.boots`) | **3835689908** | Gunny — since 1.9.9. **Not ours.** Nothing printed on them, scuffed pale at the toe |
 | Black fedora (`hat.boonie`) | **2255866690** | Vinnie — since 1.9.6. Also not ours. A boonie underneath, but the skin gives it a pinched crown and a firm brim, so it reads as a real fedora |
 
 `jacket.snow`, not `jacket`: it's the only Rust coat with real lapels, and lapels are what make a
