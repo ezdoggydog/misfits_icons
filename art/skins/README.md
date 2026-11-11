@@ -47,6 +47,7 @@ calls it. So the thing to look for in any skin app is a template download or a f
 | [Vinnie's purple pinstripe coat](https://steamcommunity.com/sharedfiles/filedetails/?id=3837745342) (`jacket.snow`) | **3837745342** | Vinnie — in GrimwoodStory's `DefaultWear` since 1.9.2 |
 | [Vinnie's purple pinstripe trousers](https://steamcommunity.com/sharedfiles/filedetails/?id=3837747305) (`pants`) | **3837747305** | Vinnie — since 1.9.3. Built from the **denser** trousers file, see below |
 | Black boots (`shoes.boots`) | **2552297736** | Vinnie — since 1.9.5. **Not ours**, an existing public workshop skin, so no upload or visibility to manage |
+| [Gunny's red PT shirt](https://steamcommunity.com/sharedfiles/filedetails/?id=3837763379) (`tshirt`) | **3837763379** | Gunny — since 1.9.7. Faded brick `#8E3A33`, gold `#C2A964`, EGA on the left chest and the full lockup across the back |
 | Black fedora (`hat.boonie`) | **2255866690** | Vinnie — since 1.9.6. Also not ours. A boonie underneath, but the skin gives it a pinched crown and a firm brim, so it reads as a real fedora |
 
 `jacket.snow`, not `jacket`: it's the only Rust coat with real lapels, and lapels are what make a
