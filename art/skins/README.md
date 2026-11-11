@@ -51,3 +51,17 @@ jacket read as a suit. The field jacket has a zip and a shirt collar and reads a
 
 Still to make: cream `shirt.collared` (`#EADFC8`) and `pants` in the same purple base. Matching
 trousers are what turn a coat into a suit — more important than anything on the jacket itself.
+
+## Trousers need a denser file than the coat (Nov 11, 2026)
+
+Measured off the renders: the coat shows **22 stripes across the full chest front** (~11 per
+panel), the trousers only 12 across both legs at the hip. Same file, different UV magnification —
+so on the body the trouser stripes sit about **1.6x further apart** than the coat's. On a real suit
+those pitches are identical, so the mismatch reads as separates rather than a suit.
+
+`chalkstripe_trousers_*` and `vinnie_trousers_base_*` are 1.6x denser (pitch 21px at 1024 against
+the coat's 34px) to come out matching once the UV has stretched them. Use these for `pants` and the
+ordinary chalkstripe for `jacket.snow`.
+
+**The general rule: match the stripes on the body, not in the file.** Every garment magnifies the
+texture differently, so the same file on two pieces will not match. Measure on the model.
