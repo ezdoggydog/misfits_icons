@@ -31,3 +31,25 @@ Insurance policy and vehicle keys (sedan, pickup, minicopter, boat, utility truc
 Hellfire M249 reference art (v2 is the one for the Fiverr skin brief).
 
 Questions? Contact MoonDoggy on Discord: zzmoondoggy
+
+## vans/  (reference renders, not game art)
+Concept renders for two Karuza van liveries, made with Grok Nov 10, 2026, to go to **Wizla**
+with the written spec in `misfits-plugins/notes/VAN_DESIGNS.md`. These are reference pictures
+for a modeller, NOT shop icons.
+
+- `grimwood_cartage_front/side/rear.png` — **Grimwood Cartage & Freight**, the family's van.
+  Matte near-black, hand-painted burnt orange, the dead tree, "If it moved, we moved it.",
+  "GRIMWOOD & SON" on the lower panel, rear doors read NO VALUABLES LEFT IN THIS VEHICLE
+  OVERNIGHT. Plate GW 1931.
+- `grimwood_unmarked_rear_quarter.png` — the same van with a **riveted panel where the name
+  should be**. Came out of the generator by accident and is worth keeping as a second variant:
+  the van for jobs that don't want a name on them. Same plate, so anyone paying attention works
+  it out.
+- `omalley_bros_front/rear.png` — **O'Malley Bros. Hauling**, the newcomers. Gloss green, cream
+  band with gold pinstripe, gold shamrock, lit roof sign, "Faster than the other fella.",
+  "GRIMWOOD · SINCE THIS YEAR", HOW'S MY DRIVING? with no number. Plate OMB 001. Note the cab
+  green doesn't quite match the box, which is the cheap-respray tell.
+
+Still to push if they get rebuilt: the Grimwood "& SON" should be an older name ghosting through
+the paint rather than current lettering, and the O'Malley van wants more visible shoddiness
+(overspray, old paint in the door shuts, misaligned pinstripe, a bubbled decal).
