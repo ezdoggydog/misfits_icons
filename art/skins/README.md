@@ -39,3 +39,15 @@ everything the UV touches.
 
 A Rust clothing skin is, underneath, one full texture over the item's UV — whatever the tool's UI
 calls it. So the thing to look for in any skin app is a template download or a full-texture import.
+
+## Skin IDs
+
+| Skin | ID | Worn by |
+|---|---|---|
+| Vinnie's purple pinstripe coat (`jacket.snow`) | **3837745342** | Vinnie — in GrimwoodStory's `DefaultWear` since 1.9.2 |
+
+`jacket.snow`, not `jacket`: it's the only Rust coat with real lapels, and lapels are what make a
+jacket read as a suit. The field jacket has a zip and a shirt collar and reads as a purple coat.
+
+Still to make: cream `shirt.collared` (`#EADFC8`) and `pants` in the same purple base. Matching
+trousers are what turn a coat into a suit — more important than anything on the jacket itself.
