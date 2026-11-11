@@ -26,3 +26,16 @@ when they're perfectly vertical here. Check the sleeves and the back in the edit
 committing. If an island runs the wrong way, that's the UV layout, not the file.
 
 Regenerate or change the spacing with the script in the commit that added this folder.
+
+## Baked base textures (Nov 11, 2026)
+
+`vinnie_suit_base_1024/2048.png` — **opaque**, `#5B3B7E` with the chalkstripe already composited,
+edge to edge. For a tool that takes a whole texture rather than a transparent overlay.
+
+Why they exist: in My Server Gear (Windows desktop app), the transparent overlay landed on the
+torso front only and left the sleeves flat purple. The overlay file covers the entire square, so
+the tool is placing it as a region decal, not across the UV. A complete texture should reach
+everything the UV touches.
+
+A Rust clothing skin is, underneath, one full texture over the item's UV — whatever the tool's UI
+calls it. So the thing to look for in any skin app is a template download or a full-texture import.
