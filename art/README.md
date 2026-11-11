@@ -17,6 +17,13 @@ halloween, muertos, usmc (Marine Corps Birthday), veterans, thanksgiving, christ
 - `rocket_badge_*` round riveted badge with the rocket
 - `rocket_moon_poster.jpg`, `rocket_moon_icon_*` rocket-and-moon poster and its square icon
 
+### Title badges (`title_<name>_<size>.png`)
+Art for the titles players collect (see the roadmap's "Title collecting + the Title King").
+Transparent, square, 1024 / 512 / 128.
+- `title_cattlepult_test_pilot_*` a cartoon cow flying sideways, "CATTLEPULT — TEST PILOT".
+  For the secret title earned by **surviving a CattlePult cow** (RocketMan launches live cows
+  that go off like C4 on impact). Made with Grok, added Nov 10, 2026.
+
 ## items/
 Insurance policy and vehicle keys (sedan, pickup, minicopter, boat, utility truck), transparent 512 px.
 
