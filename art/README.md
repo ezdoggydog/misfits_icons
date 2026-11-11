@@ -53,3 +53,11 @@ for a modeller, NOT shop icons.
 Still to push if they get rebuilt: the Grimwood "& SON" should be an older name ghosting through
 the paint rather than current lettering, and the O'Malley van wants more visible shoddiness
 (overspray, old paint in the door shuts, misaligned pinstripe, a bubbled decal).
+
+## colony/  (Selene Outpost concept art)
+- `maker_suit_concept.png` — the makers' suit, Nov 10, 2026. Bone-pale, matte, stone-weathered with
+  hairline cracks; no seams, straps, pockets or attachment points of any kind; empty hands; two
+  mends in an older darker material (forearm, knee). **The key detail: the aperture on the chest
+  matches the one on the head**, so the head slot cannot be a face — whatever a player assumes in
+  the first second is wrong in the second. Never give this suit to a player, in any form: the
+  moment it is a costume, the makers are a costume. See the Selene Outpost doc.
