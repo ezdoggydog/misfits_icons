@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 390" width="1180" height="390">
-  <text x="40" y="109" font-family="'Archivo','Inter','Archivo Black','Arial Black',sans-serif" font-size="86" font-weight="700" fill="#c45c26" letter-spacing="4.5">NO VALUABLES</text>
-  <text x="40" y="221" font-family="'Archivo','Inter','Archivo Black','Arial Black',sans-serif" font-size="86" font-weight="700" fill="#c45c26" letter-spacing="4.5">LEFT IN THIS VEHICLE</text>
-  <text x="40" y="333" font-family="'Archivo','Inter','Archivo Black','Arial Black',sans-serif" font-size="86" font-weight="700" fill="#c45c26" letter-spacing="4.5">OVERNIGHT</text>
+  <text x="590" text-anchor="middle" y="109" font-family="'Archivo','Inter','Archivo Black','Arial Black',sans-serif" font-size="86" font-weight="700" fill="#c45c26" letter-spacing="4.5">NO VALUABLES</text>
+  <text x="590" text-anchor="middle" y="221" font-family="'Archivo','Inter','Archivo Black','Arial Black',sans-serif" font-size="86" font-weight="700" fill="#c45c26" letter-spacing="4.5">LEFT IN THIS VEHICLE</text>
+  <text x="590" text-anchor="middle" y="333" font-family="'Archivo','Inter','Archivo Black','Arial Black',sans-serif" font-size="86" font-weight="700" fill="#c45c26" letter-spacing="4.5">OVERNIGHT</text>
 </svg>
