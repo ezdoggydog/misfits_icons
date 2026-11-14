@@ -102,3 +102,22 @@ slot, and a second hat is impossible anyway.
 **One loud thing at a time.** A pinstriped boonie with playing cards in the band was considered and
 rejected: the suit is already the loud thing, and a second stripe pattern at a different scale
 fights the one we spent the evening matching. Plain black hat, plain black boots, loud suit.
+
+## Published skin IDs
+
+| Skin | Workshop ID | Source files |
+|---|---|---|
+| Celestial Misfits garage door | `3839708431` | `cm_garagedoor_bright_diffuse_2048.png`, `cm_garagedoor_matte_spec_2048.png`, `cm_garagedoor_emission_2048.png` |
+
+Apply with the force place plugin (`forceplace skin <id> hand` before placing, or
+`forceplace skin <id> last` on one already up), or skin the item in inventory with Skinner and
+place it -- a placed item carries its skin.
+
+**The door panels are x 0-1777, y 170-2048 of a 2048 sheet** (measured from
+`wall.frame.garagedoor.obj`); the remaining right-hand strip is edges and rollers. The UV
+wireframe rendered from the model is `garagedoor_uv_template_2048.png` and will serve any
+future door skin.
+
+Editor gotchas, both of which default to "off":
+- **ALPHA CUTOFF** starts at 0.00 -- nothing is transparent until it is raised.
+- **EMISSION COLOR** starts at 0,0,0 -- the emission map does nothing until it is raised.
