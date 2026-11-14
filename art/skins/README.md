@@ -107,6 +107,7 @@ fights the one we spent the evening matching. Plain black hat, plain black boots
 
 | Skin | Workshop ID | Source files |
 |---|---|---|
+| Gambini & Sons garage door | `3839865829` | `gambini_painted_garagedoor_diffuse_2048.png`, `cm_garagedoor_matte_spec_2048.png` |
 | Celestial Misfits garage door | `3839708431` | `cm_garagedoor_bright_diffuse_2048.png`, `cm_garagedoor_matte_spec_2048.png`, `cm_garagedoor_emission_2048.png` |
 
 Apply with the force place plugin (`forceplace skin <id> hand` before placing, or
